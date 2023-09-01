@@ -1,0 +1,4 @@
+Name: Templates
+Type: FolderType
+Children:
+- File: ObjectsDragging/ObjectsDragging.yaml
