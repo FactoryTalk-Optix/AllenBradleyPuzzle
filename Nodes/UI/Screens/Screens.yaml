@@ -1,0 +1,4 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- File: UIDesign/UIDesign.yaml
