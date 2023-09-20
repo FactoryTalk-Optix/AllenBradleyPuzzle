@@ -57,13 +57,5 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.1
-  15:
-   Uri: 'urn:FTOptix:OPCUAServer'
-   Module: FTOptix.OPCUAServer
-   Version: 1.1
-  16:
-   Uri: 'urn:FTOptix:OPCUAServer:Net'
-   Module: FTOptix.OPCUAServer.Net
-   Version: 1.1
  Nodes:
  - File: Nodes/AllenBradleyPuzzle.yaml

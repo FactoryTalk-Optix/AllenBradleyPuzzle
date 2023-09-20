@@ -1,58 +1,46 @@
 Name: AllenBradleyPuzzle
-Id: g=ebacc219dd869c8c509066fe521ee124
 Type: ProjectFolder
 Children:
 - Name: Localization
-  Id: g=20dcc793234d5cfabfbfcdbe96b7b9e5
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Id: g=ceb98605dd166562a66550430aa998ad
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US","it-IT","zh-CN"]
   - Name: LocaleFallbackList
-    Id: g=8cfbdca569e5d442c81e96d57431df09
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
-  Id: g=31257d925fdb0d09b3f53ecc377effbb
   Type: PropertyGroup
 - Name: PasswordPolicy
-  Id: g=65a68e87ab291b4c0d79db63b2aed83a
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Id: g=bda41bed3e09483c47b551a8107c2965
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Id: g=17645a185d4b725465ea876649984bd2
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
-    Id: g=ab7878129328b4630b8a3401070b1d5d
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Id: g=22fbb9e173cf1c8d1bd4fb7f60ee4364
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
-  Id: g=62aa53db0cc6ad9b97958263b8ece134
   Type: PropertyGroup
   Children:
   - Name: DynamicVariablesPollingTime
-    Id: g=be8a066a8979c0c9bbcc63e96e6d2497
     Type: PropertyType
     DataType: Duration
     ReferenceType: HasComponent

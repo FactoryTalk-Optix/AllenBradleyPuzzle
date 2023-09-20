@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UAManagedCore;
-using FTOptix.OPCUAServer;
 #endregion
 
 public class PuzzleLogic : BaseNetLogic {
@@ -41,10 +40,7 @@ public class PuzzleLogic : BaseNetLogic {
                 singlePiece = InformationModel.Make<PuzzlePiece>("Piece" + i);
                 newPiece = true;
             }
-            string localPath = Path.DirectorySeparatorChar + "imgs" + Path.DirectorySeparatorChar + "Puzzle" + Path.DirectorySeparatorChar + "Piece" + (i + 1).ToString() + ".png";
-            singlePiece.Get<Image>("PuzzleImage").Path = "ns=" + singlePiece.NodeId.NamespaceIndex.ToString() + ";%PROJECTDIR%" + localPath;
-                                                         
-            Log.Info(singlePiece.Get<Image>("PuzzleImage").Path.Uri);
+            singlePiece.Get<Image>("PuzzleImage").Path = ResourceUri.FromProjectRelativePath("").Uri + Path.DirectorySeparatorChar + "imgs" + Path.DirectorySeparatorChar + "Puzzle" + Path.DirectorySeparatorChar + "Piece" + (i + 1).ToString() + ".png";
             singlePiece.Rotation = rnd.Next(0, 4) * 90;
             singlePiece.Width = 160;
             singlePiece.Height = 160;
@@ -53,6 +49,7 @@ public class PuzzleLogic : BaseNetLogic {
             if (newPiece) {
                 dstPage.Add(singlePiece);
             }
+            
         }
         // Start game timer
         piecesChecker = new PeriodicTask(CheckPuzzlePos, 500, LogicObject);
