@@ -1,4 +1,5 @@
 Name: UI
+Id: g=59b1aaceade7d473bec7358977848300
 Type: UICategoryFolder
 Children:
 - Name: Default
@@ -6,225 +7,284 @@ Children:
   Type: StyleSheet
   Children:
   - Name: ButtonStyle
+    Id: g=41ff2d7443daaccea6ace6055ad3a4b3
     Type: ButtonStyle
   - Name: ButtonAccentStyle
+    Id: g=87cd829fc79a4b76b1a0e17769d2d20a
     Type: ButtonStyle
   - Name: DataInputStyle
+    Id: g=1644a0bc3895204ebe945f584bb1a003
     Type: DataInputStyle
   - Name: SwitchStyle
+    Id: g=7d620dab1b31deefded49972c6854359
     Type: SwitchStyle
   - Name: GaugeStyle
+    Id: g=cc9637cb4fd77ca8ef67dd70e0141cb8
     Type: GaugeStyle
   - Name: NavigationPanelStyle
+    Id: g=811d9e937a555a93dfed32489d67b8c0
     Type: NavigationPanelStyle
     Children:
     - Name: InactiveColor
+      Id: g=e6d225b0a832cd32aa80913ed8e1117d
       Type: BaseDataVariableType
       DataType: Color
       Value: "#e4e4e400"
     - Name: InactiveTextColor
+      Id: g=cb3d252f7028bd1a6aa00cd56d54c28d
       Type: BaseDataVariableType
       DataType: Color
       Value: "#9e9e9e"
     - Name: ActivePrimaryColor
+      Id: g=d3d78e8dc4f9ca2bd93e6d51114a1467
       Type: BaseDataVariableType
       DataType: Color
       Value: "#2e6fc9"
     - Name: BackgroundColor
+      Id: g=fcd99ad0e5a2e42d930a81b69f6abc8c
       Type: BaseDataVariableType
       DataType: Color
       Value: "#e4e4e400"
     - Name: FontSize
+      Id: g=67b0cd42522c173a37ab7a016ae3c98e
       Type: BaseDataVariableType
       DataType: Size
       Value: 16.0
     - Name: IconUsesTextColor
+      Id: g=0dd9e02f20d714cb1f0064e0d04d2ded
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
   - Name: ChartStyle
+    Id: g=f91ad0c8edaa76a0b5a4b798ff853e5d
     Type: ChartStyle
   - Name: DataListStyle
+    Id: g=23ee9452b128bb4dab8ef6c09dab2b87
     Type: DataListStyle
     Children:
     - Name: SelectionBackgroundColor
+      Id: g=6f71bd4b77d5882699ebb374865a5964
       Type: BaseDataVariableType
       DataType: Color
       Value: "#235d9f"
   - Name: ToolTipStyle
+    Id: g=5e6a8b5dded1f772cff2ecca4aa5cfbd
     Type: ToolTipStyle
   - Name: ScrollBarStyle
+    Id: g=40ef03569d0fde82c69d460c9b7db4db
     Type: ScrollBarStyle
   - Name: AccordionStyle
+    Id: g=6d65d1ded8699dd60c8c20d5239549f1
     Type: AccordionStyle
     Children:
     - Name: BorderWidth
+      Id: g=84a668abd577c556f8c10ff62af7238c
       Type: BaseDataVariableType
       DataType: Size
       Value: 0.0
     - Name: HeaderBackgroundColor
+      Id: g=c160fe1eeb524d3158ca3416e49b2d44
       Type: BaseDataVariableType
       DataType: Color
       Value: "#dbdfe2"
     - Name: ContentBackgroundColor
+      Id: g=c396ff902a33d1a5185b38c32d5ec24b
       Type: BaseDataVariableType
       DataType: Color
       Value: "#dbdfe2"
     - Name: HeaderIconPosition
+      Id: g=26b83e16ab253f682490ee49fa8614dd
       Type: BaseDataVariableType
       DataType: HeaderIconPositionEnum
       Value: 0
     - Name: Radius
+      Id: g=e8113c712af9c3c0e09493787660badf
       Type: BaseDataVariableType
       DataType: Size
       Value: 8.0
   - Name: PieChartStyle
+    Id: g=1920facc03a1ae0ba665a9c3f58c65cf
     Type: PieChartStyle
     Children:
     - Name: HoleSizePercent
+      Id: g=b7ed0f2afe0d80d8db258cf127d63ab7
       Type: BaseDataVariableType
       DataType: Percentage
       Value: 0.0
   - Name: HistogramChartStyle
+    Id: g=34ce6c21c198f1017b71e5b610a9d01a
     Type: HistogramChartStyle
   - Name: WindowColor
+    Id: g=489aa6dc80edca0a34a54639eed569cc
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"
   - Name: AccentColor
+    Id: g=3c03cefeaf060e66888e69ebc20e011f
     Type: BaseDataVariableType
     DataType: Color
     Value: "#0fafff"
   - Name: AccentBorderColor
+    Id: g=5b118788c22072dcad59acfeec7f944b
     Type: BaseDataVariableType
     DataType: Color
     Value: "#075982"
 - Name: NativePresentationEngine
+  Id: g=fa2668358d81f3df08eaaf110300164f
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
   - Name: EnableVirtualKeyboard
+    Id: g=a86c2d304cdda607c867d175a95745da
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: StartWindow
+    Id: g=79c24dd5cdb7abed98679f3555a9709e
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"01a7e8933afd7c95fe894b0859308138","Namespace":14}
     Children:
     - Name: Kind
+      Id: g=8a0e3a2e1c323bbb0f6a40fd2669c4cf
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":12,"Namespace":5}
   - Name: StyleSheet
+    Id: g=c2e8d2539fe8571c7d6888ab658a66ad
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"d93988c365b252b0b0b8ca67083fd58b","Namespace":14}
     Children:
     - Name: Kind
+      Id: g=3b37e9ccdecce7281fc9c1e4ad62c64e
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":447,"Namespace":5}
   - Name: StartingUser
+    Id: g=f32e6385c2dba1f8ee386cc05bab45b0
     Type: NodePointer
     DataType: NodeId
     Value: {"Id":46,"Namespace":1}
     Children:
     - Name: Kind
+      Id: g=ea54fc217dc9689ec9d982a14d9fe7f0
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":14,"Namespace":1}
   - Name: Sessions
+    Id: g=b508733564a7a4a93479445c4250c8b1
     Type: BaseObjectType
 - Name: WebPresentationEngine
+  Id: g=ef2d865bd3fef5e611547e537d5543b9
   Type: ns=12;PresentationEngine
   Children:
   - Name: Protocol
+    Id: g=4d522f44d8e2b3de6c8751a6cde1c72a
     Type: BaseDataVariableType
     DataType: Protocol
     Value: 0
   - Name: IPAddress
+    Id: g=5ce4cca9158a4b6dc4b5f81464ba1fec
     Type: BaseDataVariableType
     DataType: String
     Value: "0.0.0.0"
   - Name: Port
+    Id: g=f91842ea3f6f67294afc30e0a2e1b21e
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 8443
   - Name: StartWindow
+    Id: g=c77a3bf86b5da61f423eb7ec45de17d1
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"01a7e8933afd7c95fe894b0859308138","Namespace":14}
     Children:
     - Name: Kind
+      Id: g=3fbe3a216dcdd4331d0dc8661ef380c7
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":12,"Namespace":5}
   - Name: StyleSheet
+    Id: g=736700fbbbaf78c4063b5ac5bf8a49ba
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"d93988c365b252b0b0b8ca67083fd58b","Namespace":14}
     Children:
     - Name: Kind
+      Id: g=363d6ac9d841582351d954535cb31512
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":447,"Namespace":5}
   - Name: StartingUser
+    Id: g=a32c706fe7f29d4bfe50dd9785a11d10
     Type: NodePointer
     DataType: NodeId
     Value: {"Id":46,"Namespace":1}
     Children:
     - Name: Kind
+      Id: g=a976bfc5b2ed997df521beb98806a6b0
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":14,"Namespace":1}
   - Name: Sessions
+    Id: g=5b52ba1b9dc5d33f88960246edced39d
     Type: BaseObjectType
     Children:
     - Name: Session1
+      Id: g=0e5157beb3cc71a1558ea3be8cb5451f
       Type: UISession
       Children:
       - Name: IsInteractive
+        Id: g=6ec00b5552d142b757b0d7750ddb5347
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: true
       - Name: IsNative
+        Id: g=e58ca04a24c0cff2ba1828780d46fd80
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: false
       - Name: IsWeb
+        Id: g=064dfe0b36c8baf1be91e2b620e11d02
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: false
       - Name: User
+        Id: g=e98cda71cf5ccd9c002900bbb68c6c53
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
+          Id: g=e654a4ce2d925887bb9c4ce2e231e621
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":14,"Namespace":1}
       - Name: ActualLocaleId
+        Id: g=6c09c11b3b1d5de7f8475fae29bb3a2d
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
         Value: ""
       - Name: ActualLanguage
+        Id: g=ffcfa9cd6a40846335725ed74c471773
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
         Value: ""
       - Name: ActualMeasurementSystem
+        Id: g=77472161090b419e31bf3313b8cb1226
         Type: BaseVariableType
         DataType: MeasurementSystem
         ReferenceType: HasProperty
         Value: 0
       - Name: TimeZoneOffset
+        Id: g=701cc49d6046363007562ada6a52df9f
         Type: BaseVariableType
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
@@ -240,10 +300,13 @@ Children:
           }
          }
       - Name: Groups
+        Id: g=234fe02fb657a05ab9e481869d65b3b6
         Type: BaseObjectType
       - Name: Roles
+        Id: g=7febe53503831c0bae1a8149b2c85cea
         Type: BaseObjectType
       - Name: Rights
+        Id: g=fd8561d6783be658e1a6916a6409eef9
         Type: BaseObjectType
       - Class: Reference
         Target: ns=1;i=146
@@ -258,11 +321,13 @@ Children:
         Target: ns=1;i=272
         Direction: Forward
       - Name: LoggedIn
+        Id: g=062f6d7c67b03cb2b3cf6583187c5d9a
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
         Value: false
   - Name: MaxNumberOfConnections
+    Id: g=d984d52291d9b2a0419e79b9af1fb5e7
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 100
@@ -271,39 +336,47 @@ Children:
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=06b1e01685bbc74742dfd26758067d69
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1280.0
   - Name: Height
+    Id: g=e47802eae51c46331213bab6a4058c3c
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 800.0
   - Name: Caption
+    Id: g=36bf245dfa9e363fba3be33f499de49b
     Type: BaseDataVariableType
     DataType: String
     ModellingRule: Optional
     Value: "Feature Demo 2.0"
   - Name: PanelLoader
+    Id: g=e866f2a0f766161e95d57752ee5a8e4d
     Type: PanelLoader
     Children:
     - Name: Panel
+      Id: g=53aa9f2b961ce6cf4c9cf4096e5838a6
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"75397058af2f6947b71e2ebf5e4fd643","Namespace":14}
       Children:
       - Name: Kind
+        Id: g=3614bf854afccab61fbda66c0e314fe5
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":71,"Namespace":5}
     - Name: CurrentPanel
+      Id: g=daef34ecaec2fbe89744c757f767f810
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
       Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
+        Id: g=55e68be6fcc18be8e5c5578a4e8bb58a
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":6,"Namespace":5}
@@ -311,104 +384,127 @@ Children:
       Target: ns=5;i=478
       Direction: Forward
     - Name: Width
+      Id: g=52a86d49b29976cff7f9c5d9ff7fbdbc
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: Height
+      Id: g=caeb2bea264572e2536c13c82a514d98
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
     - Name: HorizontalAlignment
+      Id: g=b63433910ece02e3b23b1db8eaefed54
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=15ec4546211ab54b8fca3a1dd54d495c
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: TopMargin
+      Id: g=819ba17fe409dc36967d8a6857839fce
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
   - Name: click_menu
+    Id: g=b1e470604358c11b42ce74d90eed585d
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: HorizontalLayout
+    Id: g=5ce815fde5566cf4d46de6a5a5e2663b
     Type: RowLayout
     Children:
     - Name: Width
+      Id: g=25f33673032a7863fba37b20b6b6126a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=b670f741abecd866bf25de767ff6257e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
     - Name: HorizontalAlignment
+      Id: g=66f0f7ffaff7c028b3a7a365f0c5f779
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: ContentAlignment
+      Id: g=ba2c58d272bae4d3c773efea23e2db1a
       Type: BaseVariableType
       DataType: ContentHorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: Image1
+      Id: g=eecf03a65dabe54882ec579f130764bb
       Type: Image
       Children:
       - Name: Path
+        Id: g=559e7c17323b3a170bddb34a7e23a002
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=14;%PROJECTDIR%/imgs/Logos/LogoRARed.svg"
       - Name: Width
+        Id: g=a7ef861e34b15ffc9482f37c56298ff9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 145.0
       - Name: Height
+        Id: g=37e7b67bb084caec8fad7e1fa762f762
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 60.0
     - Name: Image2
+      Id: g=ebce24ced4b42022bb13fd2e20654a05
       Type: Image
       Children:
       - Name: Path
+        Id: g=acd026a9779c926a6f83c5361a61a2e1
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=14;%PROJECTDIR%/imgs/Logos/logo_FTOptix_blue.svg"
       - Name: Width
+        Id: g=b0d20f494a6c49908dc80a178cd22ab5
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 145.0
       - Name: Height
+        Id: g=358f3b24ba2c2a8ab144b7fd0684352b
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 60.0
     - Name: Image3
+      Id: g=07f04b8d3309a6b3c5c2d1e1c3140db7
       Type: Image
       Children:
       - Name: Path
+        Id: g=583f92c4084d6b371a2092d2274f4dab
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=14;%PROJECTDIR%/imgs/Logos/IconAsemRA.svg"
       - Name: Width
+        Id: g=5d92b2a3f84a42acf45b99cd7f8f1694
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 145.0
       - Name: Height
+        Id: g=7e44328c4fad50d696466d48f13f52c9
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional

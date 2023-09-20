@@ -1,4 +1,5 @@
 Name: ObjectsDragging
+Id: g=bed3bfd4e1131a68eee6fa48ff787081
 Type: FolderType
 Children:
 - Name: PuzzlePiece
@@ -7,220 +8,274 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: HitTestVisible
+    Id: g=dff8c42f814f45e055bd0f467290362b
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
     Value: true
   - Name: MoveTarget
+    Id: g=4e48d60c2cfcb76acfbd3786f7ac4378
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=87a8c9e33ac63dfc4744d4fd1d481e05
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":71,"Namespace":5}
     - Name: DynamicLink
+      Id: g=5c036930acf6213dd76e30ff1c556580
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
   - Name: Width
+    Id: g=7a2736c8da886bfefbdae0c025721896
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 160.0
   - Name: Height
+    Id: g=d57b8f1b18da8af5b3413ae10a569559
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 160.0
   - Name: PuzzleImage
+    Id: g=735adc52f3517aa27a2840524343216b
     Type: Image
     Children:
     - Name: Path
+      Id: g=aaf9bf3287d1fed707044dddaee19db7
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=14;%PROJECTDIR%/imgs/Logos/logo_FTOptix_black.svg"
     - Name: Width
+      Id: g=d0d364520e507c55d7760121fc895391
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=d520595972f266653458cbf8eef8e4c8
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: HorizontalAlignment
+      Id: g=bb7ae98d9776cd4f4ed402989be28bdb
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=6964215790ac683619c4bbdc2290637f
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
   - Name: PuzzlePieceLogic
+    Id: g=0d05930f57722556a100cb90f438218d
     Type: NetLogic
     Children:
     - Class: Method
       Name: MouseDownEvent
+      Id: g=34d686457414fb87b06742596fda6bec
     - Class: Method
       Name: MouseUpEvent
+      Id: g=fa3933fa963dc634264961b0123c4a00
   - Name: FillColor
+    Id: g=2c66e9fd5f412dcd408904b23918fbe5
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
     Value: "#ffffff"
   - Name: MouseDownEventHandler1
+    Id: g=21ab8da9de937b714b6336773b51aa0e
     Type: EventHandler
     Children:
     - Name: ListenEventType
+      Id: g=86f4c185b643c39a2dad8094e4426a07
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":14,"Namespace":5}
     - Name: MethodsToCall
+      Id: g=fc1c59b3f605ad65695b5d5fd5063a43
       Type: BaseObjectType
       Children:
       - Name: MethodContainer1
+        Id: g=5d1259e1f4249b54ace25e70ef3f0b8f
         Type: BaseObjectType
         Children:
         - Name: ns=3;ObjectPointer
+          Id: g=de780fdf778ed006f4f9a90109ffe6c2
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
+            Id: g=3badc830735e7a2399a0b21e4f348cd6
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":58}
           - Name: DynamicLink
+            Id: g=d0940de6179e0360fbdd8622d2a984b0
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../PuzzlePieceLogic@NodeId"
             Children:
             - Name: Mode
+              Id: g=4c73aa4b86075b34051a39f3cc1180e7
               Type: BaseVariableType
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
         - Name: ns=3;Method
+          Id: g=963ab2f4d6b69917de5cb25d3579781f
           Type: BaseDataVariableType
           DataType: String
           Value: "MouseDownEvent"
     - Name: EventArguments
+      Id: g=248d931551bcc2f7ecce34fb079401f0
       Type: MouseDownEvent
       Children:
       - Name: EventId
+        Id: g=cd9e7001c38dda9e43a4bf6587c97d38
         Type: PropertyType
         DataType: ByteString
         Value: ""
       - Name: EventType
+        Id: g=26bd7763a10670ae77049575cab3e989
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
+        Id: g=002dd6fc28c15dcf23b608bd4d7b8990
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
+        Id: g=d344adb0f2e4b3a4f1fbed4063ed8b8b
         Type: PropertyType
         DataType: String
         Value: ""
       - Name: Time
+        Id: g=c6a6d27a3dfc51b4ec00778eb9b3d87c
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
+        Id: g=77e1e6f08f55b96ddd02c6191877c6d7
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
+        Id: g=df4900422d7f8b0a6b3fab4f2f8c09eb
         Type: PropertyType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
+        Id: g=3b906435ad733af1c7c33e74e85a74df
         Type: PropertyType
         DataType: UInt16
         Value: 0
   - Name: MouseUpEventHandler1
+    Id: g=421da86cd1ba8a5ad830bf83696736b7
     Type: EventHandler
     Children:
     - Name: ListenEventType
+      Id: g=56649638c9083b6ac43df5eafa56c2ac
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":15,"Namespace":5}
     - Name: MethodsToCall
+      Id: g=43f8a53051dd559eeb14a50b5940d8f7
       Type: BaseObjectType
       Children:
       - Name: MethodContainer1
+        Id: g=a8e335b63b09386635f02549736305a7
         Type: BaseObjectType
         Children:
         - Name: ns=3;ObjectPointer
+          Id: g=7b731cf8556875fdbf6471b7752494b2
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
+            Id: g=774641e3112fe5a7522f7765a0211284
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":58}
           - Name: DynamicLink
+            Id: g=a63f7a32e499ed36823a5a23736dc398
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../PuzzlePieceLogic@NodeId"
             Children:
             - Name: Mode
+              Id: g=14016ec59d033d194f7bb304fd8dc687
               Type: BaseVariableType
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
         - Name: ns=3;Method
+          Id: g=28c40d7726b6dd038ca5683d9c63b4d5
           Type: BaseDataVariableType
           DataType: String
           Value: "MouseUpEvent"
     - Name: EventArguments
+      Id: g=2b8863756243a43681016334bcdc918e
       Type: MouseUpEvent
       Children:
       - Name: EventId
+        Id: g=1a1e6070f060952ea17d20a90d9624fd
         Type: PropertyType
         DataType: ByteString
         Value: ""
       - Name: EventType
+        Id: g=93ed029261052eec1ec928732c8843e4
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
+        Id: g=dca7108478b1ea28b73a55800b10fdc1
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
+        Id: g=e7a76fbd3b037a2f233b87ff75b99c3c
         Type: PropertyType
         DataType: String
         Value: ""
       - Name: Time
+        Id: g=7978181292a03e6dc4f03aafea247052
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
+        Id: g=d7e83d80eaf15b82130181337c2e31fd
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
+        Id: g=3c5f795b6a1d78d179d201c83ebbc536
         Type: PropertyType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
+        Id: g=efc29b9a45e02c242c8cb4c078cafe64
         Type: PropertyType
         DataType: UInt16
         Value: 0
   - Name: BorderColor
+    Id: g=d6b3ac0f1f4fe9369bc6d7c92dc4f84e
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
     Value: "#000000"
   - Name: BorderThickness
+    Id: g=43da4d9576223ee3abf8b8808f0444e2
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
