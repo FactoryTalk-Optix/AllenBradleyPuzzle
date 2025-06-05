@@ -265,7 +265,7 @@ Children:
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 100
+    Value: 10
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
